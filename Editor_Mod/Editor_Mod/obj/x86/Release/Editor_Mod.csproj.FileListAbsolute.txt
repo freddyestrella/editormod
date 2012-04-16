@@ -1,0 +1,7 @@
+C:\Users\dante\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\obj\x86\Release\Editor_Mod.csprojResolveAssemblyReference.cache
+C:\Users\dante\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\obj\x86\Release\Editor_Mod.exe
+C:\Users\dante\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\bin\Release\Editor_Mod.exe
+C:\Users\dante\Dropbox\project\1.1\tshockrelease\latest\Editor_Mod.exe
+C:\Users\fred'\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\obj\x86\Release\Editor_Mod.exe
+C:\Users\fred'\Dropbox\project\1.1\tshockrelease\latest\Editor_Mod.exe
+C:\Users\fred'\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\obj\x86\Release\ResolveAssemblyReference.cache

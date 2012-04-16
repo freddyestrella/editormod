@@ -1,0 +1,3 @@
+C:\Users\dante\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\obj\x86\Debug\Editor_Mod.csprojResolveAssemblyReference.cache
+C:\Users\dante\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\obj\x86\Debug\Editor_Mod.exe
+C:\Users\dante\Dropbox\project\1.1\SharpDevelop Projects\Editor_Mod\Editor_Mod\obj\x86\Debug\Editor_Mod.pdb

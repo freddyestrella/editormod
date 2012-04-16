@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{A56F5A4D-BDBD-47FF-8A87-BCBC09102F54}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Editor_Mod</RootNamespace>
+    <AssemblyName>Editor_Mod</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\..\..\tshockrelease\latest\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.Net" />
+    <Reference Include="Microsoft.Xna.Framework.Storage" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Terraria, Version=1.0.4.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <ExecutableExtension>.exe</ExecutableExtension>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mod\resources\LazyInventory.cs" />
+    <Compile Include="GuidLib\XGLabeledSlider.cs" />
+    <Compile Include="GuidLib\XG_Button.cs" />
+    <Compile Include="GuidLib\XG_ButtonLabelBool.cs" />
+    <Compile Include="GuidLib\XG_CheckBox.cs" />
+    <Compile Include="GuidLib\XG_Control.cs" />
+    <Compile Include="GuidLib\XG_HSlider.cs" />
+    <Compile Include="GuidLib\XG_Label.cs" />
+    <Compile Include="GuidLib\XG_ListBox.cs" />
+    <Compile Include="GuidLib\XG_Panel.cs" />
+    <Compile Include="GuidLib\XG_PlusMinu.cs" />
+    <Compile Include="GuidLib\XG_RadioButton.cs" />
+    <Compile Include="GuidLib\XG_TabPage.cs" />
+    <Compile Include="GuidLib\XG_TextBox.cs" />
+    <Compile Include="GuidLib\XG_Tree.cs" />
+    <Compile Include="GuidLib\XG_VScrollbar.cs" />
+    <Compile Include="GuidLib\XnaGUIManager.cs" />
+    <Compile Include="Mod\Start.cs" />
+    <Compile Include="Mod\resources\TileBuffer.cs" />
+    <Compile Include="Mod\resources\TileBufferStructure.cs" />
+    <Compile Include="Mod\Reflections\MainReflect.cs" />
+    <Compile Include="Mod\Reflections\PlayerReflect.cs" />
+    <Compile Include="Mod\Reflections\WorldGenReflect.cs" />
+    <Compile Include="Mod\resources\Dstructure.cs" />
+    <Compile Include="Mod\resources\ItemDictionaries.cs" />
+    <Compile Include="Mod\resources\itemInventory.cs" />
+    <Compile Include="Mod\resources\NpcDictionaries.cs" />
+    <Compile Include="Mod\Mods.cs" />
+    <Compile Include="Mod\resources\NPCspawnText.cs" />
+    <Compile Include="Mod\PolyGon.cs" />
+    <Compile Include="Mod\SendPackets.cs" />
+    <Compile Include="Mod\Windows.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>
